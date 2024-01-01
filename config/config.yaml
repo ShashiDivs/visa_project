@@ -1,0 +1,15 @@
+training _pipeline+_config:
+  pipeline : US_VISA
+  artifact_dir : artifact
+
+data_ingestion_config:
+  dataset_downlaod_url: https://github.com/Shivan118/Main-Branching/raw/main/books_data.zip
+  raw_data_dir : raw_data"
+  ingested_dir : ingetsed_data
+  ingetsed_train_dir : train
+  ingetsed_test_dir : test
+
+
+data_validation_config:
+  schema_dir : config
+  schema_file_dir : schema.yaml
