@@ -8,8 +8,3 @@ data_ingestion_config:
   ingested_dir : ingetsed_data
   ingetsed_train_dir : train
   ingetsed_test_dir : test
-
-
-data_validation_config:
-  schema_dir : config
-  schema_file_dir : schema.yaml
